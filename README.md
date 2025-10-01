@@ -5,6 +5,9 @@ API criada em Python com framework FastAPI. Simula o backend de um sistema de pe
 **Criar ambiente virtual**
 python virtualenv .venv
 
+**Instalar requirements**
+python pip install -r requirements.txt
+
 **Executar servidor**
 uvicorn main:app --reload  
 ou
