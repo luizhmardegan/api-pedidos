@@ -2,21 +2,21 @@ API criada em Python com framework FastAPI. Simula o backend de um sistema de pe
 
 ## Comandos úteis
 
-**Criar ambiente virtual**
+**Criar ambiente virtual:**  
 python virtualenv .venv
 
-**Instalar requirements**
+**Instalar requirements:**  
 python pip install -r requirements.txt
 
-**Executar servidor**
+**Executar servidor:**  
 uvicorn main:app --reload  
-ou
+ou  
 python run.py
 
-**Criar migração**  
+**Criar migração:**  
 alembic revision --autogenerate -m "Alterado tal informação"
 
-**Executar migração**  
+**Executar migração:**  
 alembic upgrade head
 
 ## Variáveis de Ambiente
